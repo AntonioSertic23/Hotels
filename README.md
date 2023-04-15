@@ -1,24 +1,20 @@
 # Hoteli
 
-## Riješavanje potencijalne problematike vođenja lanca hotela
+## Web aplikacija za vođenje lanca hotela
 
 Stranica Hoteli je nastala na faksu kao projekt za konstrukcijske vježbe za predmet **Osnove Web Programiranja**.
-\
-\
+
 Tema projekta je izabrana zbog riješavanja potencijalne problematike vođenja lanca hotela.
-\
-\
+
 Stranica prikazuje sva naučena znanja o osnovnim web tehnologijama **HTML**, **CSS** (uz **Bootstrap 3.3.7**) i **JavaScript** (uz **jQuery**). A za bazu se koristio **Firebase**.
-\
-\
+
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,bootstrap,js,jquery,firebase)](https://skills.thijs.gg)
+
+Omogućeni su prijava i registracija putem firebase-a uz potpunu provjeru svih unesenih parametara kao što je na primjer provjera pravilnog formata email-a.
 
 ---
 
-Omogućeni su prijava i registracija putem firebase-a uz potpunu provjeru svih unesenih parametara kao što je na primjer provjera pravilnog formata email-a.
-\
-\
-Stranica sadrži 3 vrste pregleda:
+### Stranica sadrži 3 vrste pregleda:
 
 1. Za običnog gosta stranice koji vidi samo popis hotela.
 1. Za prijavljenog korisnika koji može rezervirati sobe u hotelima.
