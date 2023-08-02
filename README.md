@@ -1,27 +1,27 @@
-# Hoteli
+# Hotels
 
-## Web aplikacija za vođenje lanca hotela
+## Web application for managing a hotel chain
 
-Stranica Hoteli je nastala na faksu kao projekt za konstrukcijske vježbe za predmet **Osnove Web Programiranja**.
+The Hotels page was created as a project for web programming fundamentals exercises at university.
 
-Tema projekta je izabrana zbog riješavanja potencijalne problematike vođenja lanca hotela.
+The project's theme was chosen to address potential issues related to managing a hotel chain.
 
-Stranica prikazuje sva naučena znanja o osnovnim web tehnologijama **HTML**, **CSS** (uz **Bootstrap 3.3.7**) i **JavaScript** (uz **jQuery**). A za bazu se koristio **Firebase**.
+The page showcases all the acquired knowledge about basic web technologies like **HTML**, **CSS** (using **Bootstrap 3.3.7**), and **JavaScript** (with **jQuery**). **Firebase** was used as the database.
 
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,bootstrap,js,jquery,firebase)](https://skills.thijs.gg)
 
-Omogućeni su prijava i registracija putem firebase-a uz potpunu provjeru svih unesenih parametara kao što je na primjer provjera pravilnog formata email-a.
+The application allows users to register and log in via Firebase with thorough validation of all entered parameters, such as proper email format.
 
 ---
 
-### Stranica sadrži 3 vrste pregleda:
+### The page includes 3 types of views:
 
-1. Za običnog gosta stranice koji vidi samo popis hotela.
-1. Za prijavljenog korisnika koji može rezervirati sobe u hotelima.
-1. Za prijavljenog admina koji može upravljati samim hotelima. Uređivat, brisat i dodavat ih te uklanjati same rezervacije. Ima uvid u statistiku te može dodavati novog admina.
+1. For regular website visitors who can only see the list of hotels.
+1. For logged-in users who can make room reservations at hotels.
+1. For logged-in admins who can manage the hotels themselves. They can edit, delete, and add hotels, as well as cancel reservations. Admins also have access to statistics and can add new admins.
 
 ---
 
-### Pokretanje projekta
+### Project Setup
 
-Za pokretanje projekta potrebno je kreirati vlastitu Firebase bazu po primjeru koji možete naći u `assets/podaci.json`, te dobivene podatke za spajanje zalijepiti u `js/firebase_config.js`.
+To run the project, it's necessary to create your own Firebase database following the example provided in `assets/data.json`. Then, paste the obtained connection data into `js/firebase_config.js`.
