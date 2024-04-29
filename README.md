@@ -8,7 +8,7 @@ The project's theme was chosen to address potential issues related to managing a
 
 The page showcases all the acquired knowledge about basic web technologies like **HTML**, **CSS** (using **Bootstrap 3.3.7**), and **JavaScript** (with **jQuery**). **Firebase** was used as the database.
 
-[![My Skills](https://skills.thijs.gg/icons?i=html,css,bootstrap,js,jquery,firebase)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,js,jquery,firebase)](https://skillicons.dev)
 
 The application allows users to register and log in via Firebase with thorough validation of all entered parameters, such as proper email format.
 
